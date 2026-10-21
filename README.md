@@ -2,6 +2,10 @@
 
 A simple and responsive To-Do List application built with React and Material UI to help users manage their daily tasks.
 
+## Live Demo
+
+[View the To-Do List App](https://react-to-do-list09.netlify.app/)
+
 ## Preview
 
 ![To-Do List App Preview](./screenshots/todo-list-preview.png)
