@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+# To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive To-Do List application built with React and Material UI to help users manage their daily tasks.
 
-## Available Scripts
+## Preview
 
-In the project directory, you can run:
+![To-Do List App Preview](./screenshots/todo-list-preview.png)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Add new tasks.
+- Edit task titles and descriptions.
+- Delete tasks with a confirmation dialog.
+- Mark tasks as completed or incomplete.
+- Filter tasks by status: All, Completed, and Not Completed.
+- Save tasks in Local Storage so they remain after refreshing the page.
+- Display toast notifications when performing actions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React
+- JavaScript
+- Material UI (MUI)
+- React Context API
+- useReducer
+- useState and useEffect
+- Local Storage
+- CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have Node.js and npm installed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd to-do-list
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The application will open in your browser, usually at `http://localhost:3000`.
 
-### Code Splitting
+## What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Managing shared state using React Context.
+- Handling state updates with `useReducer`.
+- Using React hooks to manage component state and side effects.
+- Saving and retrieving data using Local Storage.
+- Building reusable components and dialogs with Material UI.
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Hajar Al-Anazi
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# تطبيق قائمة المهام
 
-### Advanced Configuration
+تطبيق بسيط ومتجاوب لإدارة المهام اليومية، تم تطويره باستخدام React وMaterial UI لمساعدة المستخدمين على تنظيم مهامهم ومتابعة إنجازها.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## معاينة التطبيق
 
-### Deployment
+![معاينة تطبيق قائمة المهام](./screenshots/todo-list-preview.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## المميزات
 
-### `npm run build` fails to minify
+- إضافة مهام جديدة.
+- تعديل عناوين المهام وأوصافها.
+- حذف المهام مع نافذة تأكيد.
+- تحديد المهام كمكتملة أو غير مكتملة.
+- تصفية المهام حسب الحالة: الكل، مكتملة، وغير مكتملة.
+- حفظ المهام في Local Storage لتبقى بعد تحديث الصفحة.
+- عرض إشعارات عند تنفيذ العمليات.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## التقنيات المستخدمة
+
+- React
+- JavaScript
+- Material UI (MUI)
+- React Context API
+- useReducer
+- useState وuseEffect
+- Local Storage
+- CSS
+
+## طريقة التشغيل
+
+### المتطلبات
+
+تأكدي من تثبيت Node.js وnpm على جهازك.
+
+### التثبيت والتشغيل
+
+1. استنسخي المستودع:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. انتقلي إلى مجلد المشروع:
+
+   ```bash
+   cd to-do-list
+   ```
+
+3. ثبّتي الحزم المطلوبة:
+
+   ```bash
+   npm install
+   ```
+
+4. شغّلي التطبيق:
+
+   ```bash
+   npm start
+   ```
+
+سيفتح التطبيق في المتصفح، عادةً على العنوان `http://localhost:3000`.
+
+## ما تعلمته من المشروع
+
+- إدارة الحالة المشتركة باستخدام React Context.
+- تحديث الحالة باستخدام `useReducer`.
+- استخدام React Hooks لإدارة حالة المكونات والتأثيرات الجانبية.
+- حفظ البيانات واسترجاعها باستخدام Local Storage.
+- بناء مكونات قابلة لإعادة الاستخدام ونوافذ حوار باستخدام Material UI.
+
+## المطورة
+
+هاجر العنزي
