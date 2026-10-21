@@ -85,7 +85,7 @@ Hajar Al-Anazi
 
 ## تجربة التطبيق
 
-[اضغطي هنا لفتح تطبيق قائمة المهام](https://react-to-do-list09.netlify.app/)
+[اضغط هنا لفتح تطبيق قائمة المهام](https://react-to-do-list09.netlify.app/)
 
 ## معاينة التطبيق
 
@@ -116,29 +116,29 @@ Hajar Al-Anazi
 
 ### المتطلبات
 
-تأكدي من تثبيت Node.js وnpm على جهازك.
+تأكد من تثبيت Node.js وnpm على جهازك.
 
 ### التثبيت والتشغيل
 
-1. استنسخي المستودع:
+1. استنسخ المستودع:
 
    ```bash
    git clone https://github.com/hajarhr55/react-to-do-list
    ```
 
-2. انتقلي إلى مجلد المشروع:
+2. انتقل إلى مجلد المشروع:
 
    ```bash
    cd to-do-list
    ```
 
-3. ثبّتي الحزم المطلوبة:
+3. ثبّت الحزم المطلوبة:
 
    ```bash
    npm install
    ```
 
-4. شغّلي التطبيق:
+4. شغّل التطبيق:
 
    ```bash
    npm start
