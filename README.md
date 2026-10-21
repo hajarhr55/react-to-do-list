@@ -42,7 +42,7 @@ Make sure you have Node.js and npm installed.
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/hajarhr55/react-to-do-list
    ```
 
 2. Navigate to the project directory:
@@ -83,6 +83,10 @@ Hajar Al-Anazi
 
 تطبيق بسيط ومتجاوب لإدارة المهام اليومية، تم تطويره باستخدام React وMaterial UI لمساعدة المستخدمين على تنظيم مهامهم ومتابعة إنجازها.
 
+## تجربة التطبيق
+
+[اضغطي هنا لفتح تطبيق قائمة المهام](https://react-to-do-list09.netlify.app/)
+
 ## معاينة التطبيق
 
 ![معاينة تطبيق قائمة المهام](./screenshots/todo-list-preview.png)
@@ -119,7 +123,7 @@ Hajar Al-Anazi
 1. استنسخي المستودع:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/hajarhr55/react-to-do-list
    ```
 
 2. انتقلي إلى مجلد المشروع:
